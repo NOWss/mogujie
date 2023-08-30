@@ -1,6 +1,7 @@
 import axios from 'axios'
 import { method } from 'lodash'
 import { Toast } from 'vant'
+const a = 'abc';
 // let appkey = 'mogujie'
 axios.defaults.baseURL = 'https://apis.netstart.cn/mogujie'
 
