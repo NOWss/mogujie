@@ -2,7 +2,7 @@ import axios from 'axios'
 import { method } from 'lodash'
 import { Toast } from 'vant'
 // let appkey = 'mogujie'
-axios.defaults.baseURL = 'https://apis.netstart.cn/mogujie'
+axios.defaults.baseURL = 'https://apic.netstart.cn/mogujie'
 
 // 请求拦截器
 axios.interceptors.request.use(
